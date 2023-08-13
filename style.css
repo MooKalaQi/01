@@ -1,20 +1,19 @@
 body{
-    background-color: rgb(51, 51, 51);
-    color: white;
+    background-color: black!important;
 }
-
 .key{
-    background-color: black;
-    color: white;
+    background-color: rgb(157, 157, 157);
+    color: black;
     text-align: center;
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.07;
+    transition: all .1s;
 }
 .played{
-    transform: scale(1.1);
+    background-color: rgb(91, 91, 91);
+    transform: scale(1.2);
     border: 3px solid yellow;
 
 }
